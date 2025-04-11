@@ -48,8 +48,7 @@ streamlit run app.py
 
 ## 📸 Dashboard Preview
 
-> Add a screenshot here: `<img width="1440" alt="emp-att-pred_OUTPUT" src="https://github.com/user-attachments/assets/d77adf7e-168f-471c-aed2-8b817e39fac8" /># 📉
-`
+> Add a screenshot here: <img width="1440" alt="emp-att-pred_OUTPUT" src="https://github.com/user-attachments/assets/d77adf7e-168f-471c-aed2-8b817e39fac8" /># 📉
 
 ---
 
