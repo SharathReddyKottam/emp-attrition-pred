@@ -1,31 +1,85 @@
-# 🧠 Employee Attrition Prediction Dashboard
+# 📉 Employee Attrition Prediction Dashboard
 
-A machine learning dashboard to predict whether an employee is likely to leave, based on key workplace factors.
+A smart and interactive Streamlit dashboard that predicts whether an employee is likely to leave the company based on key workplace factors. Powered by a custom-trained XGBoost model focused on simplicity and impact.
 
-## 🔍 Features Used
-- Age
-- Monthly Rate
-- Monthly Income
-- Job Role
-- Work Life Balance
+---
 
-## 💡 Model
-- Trained using XGBoost
-- SMOTE used to balance the dataset
-- 5 core features selected based on importance
+## 🚀 Features
 
-## ⚙️ Tech Stack
+- ✅ Predicts attrition likelihood with confidence level
+- 📊 Uses top 5 features only: Age, Monthly Rate, Monthly Income, Job Role, Work-Life Balance
+- 🔁 Real-time input + prediction output
+- 📈 Shows risk probability (percent)
+- 📋 Recap of selected inputs in a summary table
+- 💾 Download prediction + input as CSV
+- 👤 Personalized footer and GitHub link
+
+---
+
+## 📥 How to Use
+
+```bash
+# Clone the repo
+https://github.com/SharathReddyKottam/emp-attrition-pred
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+streamlit run app.py
+```
+
+---
+
+## 🧠 Model Info
+
+- **Algorithm**: XGBoost Classifier
+- **Trained On**: Instacart HR dataset
+- **SMOTE**: Used to handle class imbalance
+- **Feature Encoding**: `JobRole` encoded using `LabelEncoder`
+- **Final Model Features**:
+  - Age
+  - MonthlyRate
+  - MonthlyIncome
+  - JobRole (encoded)
+  - WorkLifeBalance
+
+---
+
+## 📸 Dashboard Preview
+
+> Add a screenshot here: `dashboard-preview.png`
+
+---
+
+## 🛠 Tech Stack
+
 - Python
 - Streamlit
 - XGBoost
 - scikit-learn
-- imbalanced-learn
+- pandas
+- imblearn
+- seaborn / matplotlib
 
-## 🚀 How to Run
+---
 
-```bash
-# Install dependencies
-pip install -r requirements.txt
+## 📬 Contact
 
-# Run the dashboard
-streamlit run app.py
+👨‍💻 Built with ❤️ by **Sharath Reddy**  
+🔗 [LinkedIn](https://www.linkedin.com/in/sharathreddykottam) • [GitHub](https://github.com/SharathReddyKottam)
+
+---
+
+## 🌐 Live Demo
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/SharathReddyKottam/emp-attrition-pred/main/app.py)
+
+---
+
+## ✨ Future Ideas
+
+- SHAP visualizations
+- Light/dark theme toggle
+- Upload CSV for batch prediction
+- PDF download of prediction report
