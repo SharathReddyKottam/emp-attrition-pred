@@ -1,4 +1,4 @@
-<img width="1440" alt="emp-att-pred_OUTPUT" src="https://github.com/user-attachments/assets/d77adf7e-168f-471c-aed2-8b817e39fac8" /># 📉 Employee Attrition Prediction Dashboard
+Employee Attrition Prediction Dashboard
 
 A smart and interactive Streamlit dashboard that predicts whether an employee is likely to leave the company based on key workplace factors. Powered by a custom-trained XGBoost model focused on simplicity and impact.
 
@@ -48,7 +48,7 @@ streamlit run app.py
 
 ## 📸 Dashboard Preview
 
-> Add a screenshot here: `<img width="1440" alt="emp-att-pred_OUTPUT" src="https://github.com/user-attachments/assets/0b8efe01-8de4-4c44-a45e-42cddc9e722a" />
+> Add a screenshot here: `<img width="1440" alt="emp-att-pred_OUTPUT" src="https://github.com/user-attachments/assets/d77adf7e-168f-471c-aed2-8b817e39fac8" /># 📉
 `
 
 ---
